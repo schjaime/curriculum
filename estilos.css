@@ -1,39 +1,43 @@
 @charset "utf-8";
 /* CSS Document */
 
-
-
 ul {
 	list-style: none;
 }
 
 .flex-container{
-	width:800px;
-	height: 130px;
+	height: 135px;
 	margin: 0 auto;
 	margin-bottom: 10px;
 	padding: 5px;
 	display: flex;
 	background-color:seagreen;
 	flex-direction: row;
+	justify-content: center;
 	align-items: center;
-	align-contents: flex-end;
-	flex-wrap: wrap;
-}
-	
-h1{
-	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
-	font-size: 21px;
-	display: inline-block;
-	margin-left: -10px;
-	margin-right: 10px;
+	align-contents: center;
+	flex-wrap: nowrap;
 }
 
-h3{
+.botonera{
+	width: 110px;
+	height: 20px;
+	padding: 5px;
+	margin-left: 20px;
+	background-color: burlywood;
+	color: black;
 	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
-	font-size: 12px;
-	margin-top: -12px;
+	font-weight: bold;
+	text-align: center;
+}
 
+a {
+	color: black;
+	text-decoration: none;
+}
+
+.botonera:hover{
+	background-color: #C39E6E;
 }
 
 .flex-item{
@@ -45,8 +49,16 @@ h3{
 	color: black;
 	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
 	font-weight: bold;
-	text-align: center;
-	
+	text-align: left;
+}
+
+.first-container{
+	width: 500px;
+	background-color: peachpuff;
+	margin: 20px auto;
+	padding: 5px;
+	display: flex;
+	flex-wrap:wrap;
 }
 
 .flex-containerb{
@@ -56,15 +68,36 @@ h3{
 	padding: 5px;
 	display: flex;
 	flex-direction: row;
-	justify-content: center;
+	justify-content: flex-start;
 	align-content: flex-start;
+	flex-wrap: nowrap;
+}
+
+h1{
+	font-family: "Finger Paint", "Modak", 'Gill Sans', 'Gill Sans MT', 'Myriad Pro', 'DejaVu Sans Condensed', Helvetica, Arial, 'sans-serif';
+	font-size: 20px;
+	display: inline-block;
+	margin-left: -10px;
+	margin-right: 10px;
+	color: peachpuff
+}
+
+h3{
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-size: 12px;
+	margin-top: -12px;
+}
+
+#cabecera{
+	color: peachpuff;
+	margin-left: -10px; 
 }
 
 h2{
-	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-family: "Finger Paint", "Modak", 'Gill Sans', 'Gill Sans MT', 'Myriad Pro', 'DejaVu Sans Condensed', Helvetica, Arial, 'sans-serif';
 	font-size: 16px;
-	display: inline-block;
 	margin-left: 20px;
+	margin-top: 15px;
 }
 
 h4{
@@ -77,6 +110,32 @@ h4{
 p{
 	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
 	font-size: 12px;
-	display: inline-block;
-	margin-top: -2px;
+	align-items: center;
+	margin-top: -4px
+}
+
+#soy{
+	margin: 15px;
+	padding-left: 6px;
+	margin-top: 2px;
+}
+
+#foot{
+	color: peachpuff
+}
+
+.flex-container-fin{
+	height: 130px;
+	margin: 0 auto;
+	margin-bottom: 10px;
+	padding: 5px;
+	display: flex;
+	background-color:seagreen;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+}
+
+body {
+  background-color:antiquewhite;
 }
