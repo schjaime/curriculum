@@ -1,0 +1,82 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+ul {
+	list-style: none;
+}
+
+.flex-container{
+	width:800px;
+	height: 130px;
+	margin: 0 auto;
+	margin-bottom: 10px;
+	padding: 5px;
+	display: flex;
+	background-color:seagreen;
+	flex-direction: row;
+	align-items: center;
+	align-contents: flex-end;
+	flex-wrap: wrap;
+}
+	
+h1{
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-size: 21px;
+	display: inline-block;
+	margin-left: -10px;
+	margin-right: 10px;
+}
+
+h3{
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-size: 12px;
+	margin-top: -12px;
+
+}
+
+.flex-item{
+	width: 110px;
+	height: 20px;
+	padding: 5px;
+	margin-left: 20px;
+	background-color: burlywood;
+	color: black;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-weight: bold;
+	text-align: center;
+	
+}
+
+.flex-containerb{
+	width:500px;
+	background-color: peachpuff;
+	margin: 20px auto;
+	padding: 5px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-content: flex-start;
+}
+
+h2{
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-size: 16px;
+	display: inline-block;
+	margin-left: 20px;
+}
+
+h4{
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-size: 14px;
+	display: inline-block;
+	margin-top: -20px;
+}
+
+p{
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-size: 12px;
+	display: inline-block;
+	margin-top: -2px;
+}

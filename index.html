@@ -3,60 +3,69 @@
 <head>
 <meta charset="utf-8">
 <title>Documento sin título</title>
+<link href="estilos.css" rel="stylesheet" type="text/css">
 </head>
 
 <body>
-	<!-- Indentar correctamente (ver videoclases). No dejar etiquetas sin contenido. Verificar el uso de <img> --> 
 	<header>
-		<h1>Curriculum</h1>
-		<nav>
+	<section class="flex-container">
+		<img src="img/autorretrato.png" width="130" height="135" alt="autorretrato"/>
+		
+		<article>	
 			<ul>
-				<li>Trabajos</li>
-				<li>Contacto</li>
+				<li><h1>Jaime Schr&ouml;pfer, A.</h1></li>
+				<li><h3>Dise&ntilde;ador e Ilustrador ;-)</h3></li>
 			</ul>
-		</nav>
+		</article>
+			<article class="flex-item"> <a href="#">Inicio</a></article> 
+			<article class="flex-item"> <a href="#">Formación</a></article>
+			<article class="flex-item"> <a href="#">Proyectos</a></article>
+		</section>
 	</header>
+	
 	<main>
-		<section>
+		<section class="flex-containerb">
 			<h2>Experiencia</h2>
 			<ul>
 				<li>
-					<h3>Auxiliar de Cátedra</h3>
 					<h4>Medios Expresivos III / UNLa</h4>
+					<h3>Auxiliar de Cátedra</h3>
 				</li>
 				<li>
-					<h3>Otra Experiencia</h3>
 					<h4>Muy buena experiencia</h4>
+					<h3>Otra Experiencia</h3>
 				</li>
 			</ul>
 		</section>
-		<section>
+		<section class="flex-containerb">
 			<h2>Formación</h2>
 			<ul>
 				<li>
-					<h3>ESEA Manuel Belgrano</h3>
-					<h4>Diciembre 2020</h4>
-					<p>Título de Bachiller en Artes Visuales con especialidad en producción artística contemporánea</p>
+					<h4>ESEA Manuel Belgrano</h4>
+					<h3>Diciembre 2020</h3>
+					<p>Título de Bachiller en Artes Visuales con especialidad en producción artística contemporánea.</p>
 				</li>
 				<li>
-					<h3>Cultural Inglesa Avellaneda</h3>
-					<h4>Diciembre 2020</h4>
-					<p>Certificado de Capacitación</p>
+					<h4>Cultural Inglesa Avellaneda</h4>
+					<h3>Diciembre 2020</h3>
+					<p>Certificado de Capacitación.</p>
 				</li>
 				<li>
-					<h3>Universidad Nacional de Lanús</h3>
-					<h4>En curso</h4>
-					<p>Licenciatura en Diseño y Comunicación Visual</p>
+					<h4>Universidad Nacional de Lanús</h4>
+					<h3>En curso</h3>
+					<p>Licenciatura en Diseño y Comunicación Visual.</p>
 				</li>
 			</ul>
 		</section>
-		
 	</main>
 	<footer>
-		<p>Curriculum Vitae / Computación III UNLa</p>
-		<p>Todos los derechos reservados 2023</p>
-		<img>
-		<p>probando</p>
+		<section class="flex-container">
+			<article>
+			<img src="img/logo_catedra.svg"  width="80" height="80" alt="Cátedra Wischñevsky"/>
+			</article>
+			<p>Computación III UNLa / Curriculum Vitae.</p>
+			<p>Todos los derechos reservados 2023</p>
+		</section>
 	</footer>
 </body>
 </html>
